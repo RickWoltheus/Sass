@@ -1,0 +1,19 @@
+body {
+  background-color: #e8e8e8;
+  font-family: sans-serif;
+  margin: 0 auto; }
+  body h1 {
+    font-family: fantasy; }
+  body article {
+    background-color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px; }
+  body footer {
+    position: fixed;
+    width: 100%;
+    background-color: grey;
+    bottom: 1px; }
+
+/*# sourceMappingURL=oefening.css.map */

@@ -1,0 +1,25 @@
+$primarycolor: rgb(232, 232, 232);
+$secondarycolor: rgb(255, 255, 255);
+$mainfont: sans-serif;
+$secondaryfont: fantasy;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+body {
+  background-color: $primarycolor;
+  font-family: $mainfont;
+  margin: 0 auto;
+  h1{
+    font-family: $secondaryfont;
+  }
+  article{
+    background-color: $secondarycolor;
+     @include border-radius(10px);
+  }
+  @import 'footer';
+}
